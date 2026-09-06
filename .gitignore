@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Local configuration
+config.ini
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
