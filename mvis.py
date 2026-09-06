@@ -2,7 +2,7 @@
 #
 # ==========================================================
 # McQueen Voice ID Scheduler (MVIS)
-# Version 1.0.0
+# Version 1.1.0
 #
 # Node : AllStarLink Node 64679
 # Author : E25MQ
@@ -16,10 +16,10 @@ import time
 from datetime import datetime
 
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
-CONFIG_FILE = "config.ini"
+CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
 
 
 # ----------------------------------------------------------
